@@ -1,0 +1,104 @@
+ 
+* {
+    font-family:  Helvetica, Arial, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
+
+#Header
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    height: 69px;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#Logo
+{
+    height: 50px;
+    padding-left: 10px;
+}
+
+#Nav
+{
+    padding-right: 10px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#Nav a
+{
+    text-decoration: underline;
+}
+
+#Main
+{
+
+}
+
+#Mission
+{
+    position: relative;
+    padding-top: 70px;
+}
+
+#Black-Stripe
+{
+    
+}
+
+#Featured-Tea
+{
+    
+}
+
+#Featured-Tea-Title
+{
+    
+}
+
+#Featured-Tea-Images
+{
+    
+}
+
+.tea-display
+{
+
+}
+
+.tea-display img
+{   /*DEBUG*/
+    width: 1px;
+    height: 1px;
+}
+
+#Locations
+{
+    
+}
+
+.location
+{
+
+}
+
+#Contact-Info
+{
+    
+}
+
+#Footer
+{
+    
+}
