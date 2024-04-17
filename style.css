@@ -1,5 +1,5 @@
  
-* {
+html {
     font-family:  Helvetica, Arial, sans-serif;
     font-size: 22px;
     color: seashell;
@@ -20,6 +20,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: black;
 }
 
 #Logo
@@ -128,6 +129,7 @@
 .location
 {
     opacity: 1;
+    background-color: black;
     width: 300px;
     margin-top: 15px;
     margin-right: 40px;
@@ -136,7 +138,7 @@
 #Contact-Info
 {
     height: 200px;
-    margin: 0px;
+    margin-top: 10px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-around;
