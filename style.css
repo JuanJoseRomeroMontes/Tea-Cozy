@@ -5,6 +5,7 @@
     color: seashell;
     background-color: black;
     opacity: 0.9;
+    text-align: center;
 }
 
 #Header
@@ -43,62 +44,111 @@
 
 #Main
 {
-
+    margin-top: 70px;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
 }
 
 #Mission
 {
     position: relative;
-    padding-top: 70px;
+    height: 700px;
+    width: 1200px;
+    display: flex;
+    align-items: center;
+    background-image: url("./img/img-mission-background.jpg");
 }
 
 #Black-Stripe
 {
-    
+    width: 1200px;
+    background-color: black;
 }
 
 #Featured-Tea
 {
-    
+    width: 1000px;
 }
 
 #Featured-Tea-Title
 {
-    
+    margin-top: 65px;
+}
+
+#Featured-Tea-Title h2,h4
+{
+    margin: 20px;
 }
 
 #Featured-Tea-Images
 {
-    
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-bottom: 75px;
 }
 
 .tea-display
 {
-
+    margin: 15px;
 }
 
 .tea-display img
-{   /*DEBUG*/
-    width: 1px;
-    height: 1px;
+{
+    width: 300px;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.tea-display h4
+{
+    margin: 0px;
 }
 
 #Locations
 {
-    
+    height: 500px;
+    width: 1200px;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    background-image: url("./img/img-locations-background.jpg");
+}
+
+#Locations h2
+{
+    background-color: transparent;
+    position: relative;
+    width: 100%;
+    margin: 0px;
 }
 
 .location
 {
-
+    opacity: 1;
+    width: 300px;
+    margin-top: 15px;
+    margin-right: 40px;
 }
 
 #Contact-Info
 {
-    
+    height: 200px;
+    margin: 0px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-around;
 }
 
-#Footer
+#Contact-Info h2
 {
-    
+    margin: 15px;
+}
+
+#Footer h4
+{
+    text-align: left;
+    margin-left: 20px;
 }
